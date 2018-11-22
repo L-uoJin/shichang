@@ -1,0 +1,24 @@
+#tab {
+	width: 500px;
+    height: 300px;
+	position:relative;
+	margin:80px auto 0px auto;
+	text-align:center;
+	padding:1px;
+}
+#tab .top{
+	width: 410px;
+	border:1px solid #9c9696;
+}
+#tab .tab_box {
+    width: 410px;
+    height: 460px;
+    clear: both;
+    position: relative;
+    border:1px solid #9c9696;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px;
+    filter: alpha(opacity:80);
+    opacity: 0.8;
+}

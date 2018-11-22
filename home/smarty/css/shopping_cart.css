@@ -1,0 +1,88 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+    text-align: center;
+    width: 937px;
+}
+th {
+	text-align: center;
+	width: 90px;
+    background: #b7b9bb;
+    border-top: 3px solid #a7cbff;
+    height: 30px;
+}
+td {
+    padding: 10px;
+    color: #444;
+}
+tbody tr:hover {
+    background: RGB(238,246,255);
+}
+.goods {
+    width: 100px;
+}
+.goods span {
+    width: 180px;
+    margin-top: 20px;
+    text-align: left;
+    float: left;
+}
+.price {
+    width: 130px;
+}
+.count {
+    width: 90px;
+}
+.count .add, .count input, .count .reduce {
+    float: left;
+    margin-right: -1px;
+    position: relative;
+    z-index: 0;
+}
+.count .add, .count .reduce {
+    height: 20px;
+    width: 25px;
+    border: 2px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 17px;
+    color: #444;
+}
+.count .add:hover, .count .reduce:hover {
+    color: #f5f5;
+    z-index: 3;
+    border-color: #f5f5;
+    cursor: pointer;
+}
+.count input {
+    width: 50px;
+    height: 20px;
+    line-height: 15px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    z-index: 2;
+}
+.subtotal {
+    width: 150px;
+    color: red;
+    font-weight: bold;
+}
+.operation {
+    width: 80px;
+}
+.operation span:hover, a:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+.img {
+    width: 100px;
+    height: 80px;
+    /*border: 1px solid #ccc;*/
+    margin-right: 10px;
+    float: left;
+}
